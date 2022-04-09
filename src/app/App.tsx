@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { List } from '../components/List';
+import { Login } from '../components/Login';
 
 function App() {
   return (
     <div className='App'>
-      <h1 data-testid='myheading'>Heading</h1>
-      <List />
+      <h1 data-testid='main-heading'>Testing App</h1>
+      <Login />
     </div>
   );
 }

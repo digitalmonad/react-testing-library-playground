@@ -1,5 +1,7 @@
 [![Main CI](https://github.com/digitalmonad/react-testing-library-playground/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/digitalmonad/react-testing-library-playground/actions/workflows/main.yml)
 
+To comply with React 18, I updated src/index.ts according to this thread: https://stackoverflow.com/questions/71668256/deprecation-notice-reactdom-render-is-no-longer-supported-in-react-18
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
