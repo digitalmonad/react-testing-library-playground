@@ -4,6 +4,8 @@ export const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  const [error, setError] = useState();
+
   return (
     <div className='container'>
       <form>
@@ -20,6 +22,12 @@ export const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button disabled={!username && !password}>Login</button>
+        <div
+          data-testid={'error-message'}
+          style={{ visibility: error ? 'visible' : 'hidden' }}
+        >
+          Something went wrong
+        </div>
       </form>
     </div>
   );
